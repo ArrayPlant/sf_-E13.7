@@ -1,0 +1,11 @@
+{
+    "posts": [
+      { "id": 1, "title": "Hello World", "author": "Senya" },
+      { "id": 2, "title": "Webpack Rocks", "author": "Masha" }
+    ],
+    "comments": [
+      { "id": 1, "postId": 1, "content": "Great post!" },
+      { "id": 2, "postId": 1, "content": "Thanks for sharing." }
+    ]
+  }
+  
