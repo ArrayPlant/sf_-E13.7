@@ -6,6 +6,8 @@
 
 ```npm install --save-dev eslint prettier eslint-plugin-prettier eslint-config-prettier husky lint-staged```
 
+```npm install --save-dev clean-webpack-plugin```
+
 **Далее создал основные файлы с настройками.**
 
 ```npx husky install```
