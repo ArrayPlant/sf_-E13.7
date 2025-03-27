@@ -6,17 +6,17 @@ module.exports = merge(commonConfig, {
   mode: 'development',
   devtool: 'inline-source-map',
   devServer: {
-    static: './dist',    
-    open: true,          
-    hot: true,           
-    port: 3000,          
-    proxy: {
-
-      '/api': {
-        target: 'http://localhost:3001', 
+    static: './dist',
+    open: true,
+    hot: true,
+    port: 3000,
+    proxy: [
+      {
+        context: ['/api'],
+        target: 'http://localhost:3001',
         changeOrigin: true
       }
-    }
+    ]
   },
   plugins: [
     new webpack.HotModuleReplacementPlugin()
