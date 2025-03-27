@@ -1,3 +1,6 @@
+javascript
+console.log('Webpack is working!');
+
 if (module.hot) {
     module.hot.accept(); 
   }

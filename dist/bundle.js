@@ -1,0 +1,2 @@
+javascript,console.log("Webpack is working!"),fetch("/api/posts").then((o=>o.json())).then((o=>{console.log("Posts from API:",o),o.forEach((o=>console.log(o.title)))})).catch((o=>console.error("Error fetching posts:",o)));
+//# sourceMappingURL=bundle.js.map
